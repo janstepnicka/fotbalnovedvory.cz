@@ -1,0 +1,39 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Domácí zápas vs FK Kutná Hora",
+      "date": "2026-08-01",
+      "time": "14:00",
+      "location": "Domácí hřiště",
+      "description": "Sportovní dětský den"
+    }
+  ],
+  "sponsors": [
+    {
+      "name": "Ener Domy",
+      "logo": "sponsors/enerdomy.png",
+      "url": "#"
+    },
+    {
+      "name": "AVE",
+      "logo": "sponsors/avelogo.svg",
+      "url": "#"
+    },
+    {
+      "name": "Gira",
+      "logo": "sponsors/giralogo.png",
+      "url": "#"
+    },
+    {
+      "name": "Městys Nové Dvory",
+      "logo": "sponsors/mestyslogo.png",
+      "url": "#"
+    },
+    {
+      "name": "Středočeský kraj",
+      "logo": "sponsors/stredocesky_kraj.gif",
+      "url": "#"
+    }
+  ]
+}

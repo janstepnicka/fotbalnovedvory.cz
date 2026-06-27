@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FK Ener Nové Dvory | Fotbalový klub</title>
+    <meta name="description" content="Oficiální stránky fotbalového klubu FK Ener Nové Dvory, z.s.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="fklogo.svg" type="image/svg+xml">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo">
+                    <img src="fklogo.svg" alt="FK Ener Nové Dvory" class="logo-img">
+                    <span class="logo-text">FK Ener Nové Dvory</span>
+                </a>
+                <button class="nav-toggle" aria-label="Menu" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home">Domů</a></li>
+                    <li><a href="#events">Události</a></li>
+                    <li><a href="#sponsors">Partneři</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <img src="fklogo.svg" alt="FK Ener Nové Dvory" class="hero-logo">
+                <h1>FK Ener Nové Dvory</h1>
+                <p class="hero-subtitle">Fotbalový klub z.s.</p>
+                <a href="#events" class="btn btn-primary">Nadcházející události</a>
+            </div>
+        </section>
+
+        <section id="events" class="events">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Události</h2>
+                    <p class="section-subtitle">Nadcházející zápasy a akce našeho klubu</p>
+                </div>
+                <div class="events-grid" id="events-container">
+                    <!-- Events loaded from JSON -->
+                </div>
+            </div>
+        </section>
+
+        <section id="sponsors" class="sponsors">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Naši partneři</h2>
+                    <p class="section-subtitle">Děkujeme za podporu našeho klubu</p>
+                </div>
+                <div class="sponsors-grid" id="sponsors-container">
+                    <!-- Sponsors loaded from JSON -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-brand">
+                    <img src="fklogo.svg" alt="FK Ener Nové Dvory" class="footer-logo">
+                    <p class="footer-club-name">FK Ener Nové Dvory, z.s.</p>
+                    <p class="footer-tagline">Fotbalový klub</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Kontakt</h3>
+                    <ul class="footer-list">
+                        <li>
+                            <strong>Email</strong>
+                            <a href="mailto:info@fotbalnovedvory.cz">info@fotbalnovedvory.cz</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Údaje klubu</h3>
+                    <ul class="footer-list">
+                        <li>
+                            <strong>ID Klubu</strong>
+                            2050541
+                        </li>
+                        <li>
+                            <strong>IČO</strong>
+                            21415013
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> FK Ener Nové Dvory. Všechna práva vyhrazena.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
